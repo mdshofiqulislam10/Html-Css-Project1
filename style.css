@@ -1,0 +1,111 @@
+.m1{
+
+    color: green;
+    background-color: blue;
+    background-image: url(m1.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+     
+}
+
+.m2{
+    display: flex;
+    padding: 3% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.nav-menu{
+    flex: 1;
+    text-align: right;
+}
+.nav-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 12px;
+    position: relative;
+    border: 2px solid gray;
+    border-radius: 50px;
+    text-align: center;
+    background-color: black;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav-menu ul li:hover{
+    background-color: crimson;
+    transition: all ease-in 0.9s;
+}
+.nav-menu ul li:hover::after{
+    width: 100%;
+    position: absolute;
+    top: 15px;
+}
+.profile{
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translate(25%, -25%);
+}
+.titlediscribtion{
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    transform: translate(-50%, *50%);
+}
+.titlediscribtion h1{
+    font-size: 40px;
+}
+.titlediscribtion p{
+    margin: 10px 0 30px;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 120px;
+}
+.titlediscribtion a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    position: relative;
+    cursor: pointer;
+    padding: 5px 20px;
+    font-size: 15px;
+    background-color: black;
+
+}
+.titlediscribtion a:hover{
+    background-color: green;
+    border: 2px solid black;
+    transition: 0.9s;
+}
+@media(max-width: 700px){
+    .titlediscribtion{
+        width: 80%;
+        color: white;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        transform: translate(-50%, *50%);
+        text-align: center;
+    } 
+    .div1 .imagetag{
+
+        width: 1000px;
+        height: 1000px;
+
+    }
